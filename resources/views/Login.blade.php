@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    @vite('resources/css/app.css')
-</head>
-<body>
-    
-=======
 <!doctype html>
 <html>
 <head>
@@ -53,6 +41,5 @@
       </div>
     </form>
   </div>
->>>>>>> 155dc56 (First Commit)
 </body>
 </html>
