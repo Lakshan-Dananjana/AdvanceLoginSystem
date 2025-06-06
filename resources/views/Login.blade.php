@@ -11,16 +11,16 @@
     <form action="" method="post" class=" w-[85%] sm:w-[60%] md:w-[40%] min-h-[55%] flex flex-col items-center p-[10px] border-[2px] rounded-xl border-white text-white bg-white/20 backdrop-blur-sm gap-[35px] ">
       <h1 class="text-4xl font-bold">Login</h1>
       <div class="w-[90%]">
-        <input type="text" name="" id="" class="w-[100%] h-[35px] bg-white backdrop-blur-md rounded-xl text-black placeholder:text-black pl-[10px] flex justify-center" placeholder="Enter Your Email">
+        <input type="text" name="" id="" class="w-[100%] h-[35px] bg-white backdrop-blur-md rounded-xl text-black placeholder:text-black pl-[10px]" placeholder="Enter Your Email">
       </div>
       <div class="w-[90%]">
-        <input type="password" name="" id="" class="w-[100%] h-[35px] bg-white backdrop-blur-md rounded-xl text-black placeholder:text-black pl-[10px] flex justify-center" placeholder="Enter Your Password">
+        <input type="password" name="" id="" class="w-[100%] h-[35px] bg-white backdrop-blur-md rounded-xl text-black placeholder:text-black pl-[10px]" placeholder="Enter Your Password">
       </div>
       <div class="w-[90%] pl-[12px]">
         <input type="checkbox" name="remember" id="remember">
         <label for="remember">Remember Me</label>
       </div>
-      <button type="submit" class="w-[100px] h-[40px] bg-blue-600 rounded-xl hover:bg-blue-400 transistion">Login</button>
+      <button type="submit" class="w-[100px] h-[35px] bg-blue-600 rounded-xl hover:bg-blue-400 transistion">Login</button>
       <div class="w-[90%] flex justify-center text-center">
         <p>Do you haven't an account? <a href="/register" class="text-yellow-200 hover:text-red-500 transistion">Sign Up</a></p>
       </div>

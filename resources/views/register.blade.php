@@ -10,22 +10,25 @@
     <div class="w-screen min-h-screen flex justify-center items-center bg-gradient-to-br from-yellow-300 to-red-600 text-white">
         <form action="" method="post" class="w-[85%] sm:w-[60%] md:w-[40%] min-h-[55%] flex flex-col justify-center items-center p-[10px] border-[2px] rounded-xl border-white text-white bg-white/20 backdrop-blur-sm gap-[35px]">
             <h1 class="text-3xl font-bold">Registration</h1>
-            <div class="w-[90%]">
-                <input type="text" name="" id="" class="" placeholder="Enter Your First Name">
-                <input type="text" name="" id="" class="" placeholder="Enter Your Last Name">
+            <div class="w-[90%] gap-[2%]">
+                <input type="text" name="" id="" class="w-[48%] h-[35px] bg-white backdrop-blur-md rounded-xl text-black placeholder:text-black p-[10px]" placeholder="Enter Your First Name">
+                <input type="text" name="" id="" class="w-[48%] h-[35px] bg-white backdrop-blur-md rounded-xl text-black placeholder:text-black p-[10px]" placeholder="Enter Your Last Name">
             </div>
             <div class="w-[90%]">
-                <input type="text" name="" id="" class="" placeholder="Enter Your Email Name">
+                <input type="email" name="" id="" class="w-[98%] h-[35px] bg-white backdrop-blur-md rounded-xl text-black placeholder:text-black p-[10px]" placeholder="Enter Your Username">
             </div>
             <div class="w-[90%]">
-                <input type="text" name="" id="" class="" placeholder="Enter Your Password">
+                <input type="email" name="" id="" class="w-[98%] h-[35px] bg-white backdrop-blur-md rounded-xl text-black placeholder:text-black p-[10px]" placeholder="Enter Your Email Name">
             </div>
             <div class="w-[90%]">
-                <input type="text" name="" id="" class="" placeholder="Enter Your Confirm Password">
+                <input type="password" name="" id="" class="w-[98%] h-[35px] bg-white backdrop-blur-md rounded-xl text-black placeholder:text-black p-[10px]" placeholder="Enter Your Password">
             </div>
-            <button type="submit">Register</button>
+            <div class="w-[90%]">
+                <input type="password" name="" id="" class="w-[98%] h-[35px] bg-white backdrop-blur-md rounded-xl text-black placeholder:text-black p-[10px]" placeholder="Enter Your Confirm Password">
+            </div>
+            <button type="submit" class="bg-blue-600 w-[100px] h-[35px] rounded-xl hover:bg-blue-400 transistion">Register</button>
             <div class="w-[90%] flex justify-center">
-                <p>You already have an account please <a href="/">Login</a></p>
+                <p>You already have an account please <a href="/" class="text-yellow-200 hover:text-red-500 transistion">Login</a></p>
             </div>
             <div class="flex flex-row gap-[20px]">
                 <a href="">
