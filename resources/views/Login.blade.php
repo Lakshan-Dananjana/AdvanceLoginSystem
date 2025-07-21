@@ -37,7 +37,7 @@
         </a>
       </div>
       <div class="w-[90%] flex justify-center text-center">
-        <a href="" class="text-yellow-200 hover:text-red-500 transistion">Forgot Password?</a>
+        <a href="/Ensure Email" class="text-yellow-200 hover:text-red-500 transistion">Forgot Password?</a>
       </div>
     </form>
   </div>

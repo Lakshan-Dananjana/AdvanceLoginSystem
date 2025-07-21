@@ -14,5 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', 'App\Http\controllers\pageController@login');
-Route::get('/register', 'App\Http\controllers\pageController@Register');
+Route::get('/',                                     'App\Http\controllers\pageController@login');
+Route::get('/register',                             'App\Http\controllers\pageController@Register');
+Route::get('/Ensure Email',                         'App\Http\controllers\pageController@forgetEmail');
+Route::get('/OTP-verifing',                         'App\Http\controllers\pageController@otpVerify');
+Route::get('/change-password',                         'App\Http\controllers\pageController@changePassword');
